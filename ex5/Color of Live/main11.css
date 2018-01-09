@@ -1,0 +1,57 @@
+html *{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #e8eae9;
+    padding: 10%;
+}
+.Box1{
+    width: 40%;
+    height: 600px;
+    float: left;
+    background-image: url("img/matthew-hamilton-351641.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    
+}
+.Box2{
+    width: 40%;
+    height: 600px;
+    float: left;
+    background-image: url("img/ronaldo-arthur-vidal-66241.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 15px 0 black;
+}
+p{
+    text-align: center;
+    margin: 40%;
+    font-size: 18px;
+    color: rgb(177, 175, 182);
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+p1{
+    text-align: center;
+}
+h4{
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+*, body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul{
+  list-style: none;
+}
+.main{
+  width:65%;
+  margin: 20px auto;
+  height: 80vh;
+}
+.main>.leftBox{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #00bcd3;
+  vertical-align: top;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px;
+}
+.main>.rightBox{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: url("bg.svg");
+  background-repeat: no-repeat;
+  background-position: top top;
+  background-size: cover;
+  vertical-align: top;
+  position: relative;
+  color: #eee;
+}
+.main>.leftBox #t04{
+  font-size: 2em;
+  color: #555;
+  font-weight: 600;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.main>.leftBox #t2015{
+  position: absolute;
+  right: 40px;
+  top: 40%;
+  color: #eee;
+  text-align: center;
+}
+.main>.leftBox #t2015 li:last-child{
+   border-bottom: 1px solid #555;
+  display: block;
+  width: 25px;
+  padding-bottom: 5px;
+}
+.main>.leftBox #menuBtn{
+  position: absolute;
+  left: 0;
+  top: 40%;
+  transform: translateX(-100%);
+  background: #444;
+  color: #222;
+  width: 40px;
+  height: 40px;
+  font-weight: 800;
+  font-size: 1.2em;
+}
+.main>.leftBox #tLcad{
+  margin-top: 36%;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  font-size: 1.5em;
+  color: #eee;
+}
+.main>.leftBox .titel1{
+  color: #eee;
+  font-size: 2.5em;
+  font-weight: normal;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  margin-bottom: 50px;
+}
+.main>.leftBox p{
+  display: block;
+  width: 82%;
+  font-size: 0.8em;
+  font-family: serif;
+  letter-spacing: 1.5px;
+  color: #eee;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  line-height: 18px;
+}
+.main>.leftBox #exBtn{
+    margin-left: 20px;
+    font-size: 0.6em;
+  padding: 10px 25px;
+  background: #557fff;
+   border: none;
+  color: #fff;
+
+}
+.main>.rightBox #closeBtn{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  color: #00bcd3;
+  text-decoration: navajowhite;
+  font-size: 1.4em;
+}
+.main>.rightBox .titel2{
+  margin: 12% 0 0 58%;
+  color: #ddd;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+.main>.rightBox #tDesign{
+  position: absolute;
+  width: 40px;
+  text-align: center;
+  left: 25px;
+  font-weight: normal;
+  font-size: 0.8em;
+  top: 200px
+}
+.main>.rightBox #tIlust{
+    position: absolute;
+  width: 40px;
+  text-align: center;
+  left: 25px;
+  font-weight: normal;
+  font-size: 0.8em;
+  top: 400px
+}
+.main>.rightBox ul{
+  margin: 20px 0 60px 17%;
+ font-size: 0.8em;
+}
+.main>.rightBox ul li{
+  padding: 0 0 0 80px;
+  height: 30px;
+  line-height: 30px;
+}
+.main>.rightBox ul li .topText{
+  font-size: 0.5em;
+  vertical-align: top;
+}
+
+.main>.rightBox ul .active{
+  background: rgba(55,55,55,0.8);
+  padding-left: 60px;
+}
+.main>.rightBox ul .active:before{
+  content: "---";
+}
+
+.main>.rightBox .footer{
+  margin: 0 0 0 200px;
+  font-size: 0.7em;
+  color: #888;
+}

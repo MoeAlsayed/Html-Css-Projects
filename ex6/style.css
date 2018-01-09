@@ -1,0 +1,118 @@
+html *{
+  box-sizing: border-box;
+}
+*, body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+body{
+  background: #FF8487;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.menu{
+  position: relative;
+  width: 30%;
+  height: 100vh;
+  background: #ddd;
+  margin: 10px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow:;
+}
+.menuHeader {
+  width: 100%;
+  padding: 4%;
+  text-align: center;
+  background: #fff;
+  box-sizing: border-box;
+}
+.menuHeader a{
+  color: #111;
+  font-size: 1.5em;
+}
+.menuHeader .titel{
+  margin: 0 30%;
+}
+.nav{
+  background: #fff;
+  width: 100%;
+  padding: 40px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+.nav img{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+.nav ul{
+  margin-top: 50px;
+}
+.nav ul li{
+  display: inline-block;
+}
+.nav ul li:first-child{
+  margin-right: 15px;
+}
+.nav ul li a{
+  display: block;
+  font-size: 1.3em;
+  color:#999;
+  letter-spacing: 4px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.nav ul li .active{
+  color: #111;
+  border-bottom: 3px solid #111;
+}
+.tabelBox{
+  background: #fff;
+  width: 80%;
+  height: 40%;
+  display: inline-block;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+}
+.show{
+  transform: translateX(-50%);
+  left: 50%;
+}
+.leftHide{
+  right: 95%;
+}
+.rightHide{
+  left: 95%;
+}
+.tabelBox table{
+  margin: 0 0 0 40px;
+  width:85%;
+}
+.tabelBox table tr{
+  height: 43px;
+}
+.tabelBox table th{
+  text-align: left;
+  color:#aaa;
+}
+.tabelBox table tr td{
+    width: 30%;
+
+}
+ table tr td:first-child{
+  width: 50% !important;
+  font-weight: 600;
+  color: #444;
+}
+.tabelBox table tr td:last-child{
+   width: 20% !important;
+}

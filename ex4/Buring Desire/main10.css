@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet');
+html *{
+    box-sizing: border-box;  
+}
+body{
+    width: 100%;
+    background: #fdf0e7;
+    padding: 10%;
+    font-family: 'Anton', sans-serif;
+}
+main{
+    padding: 20%;
+    display: block;
+}
+.Box1   {
+    width: 33%;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    background: url("img-09.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.Box2{
+    width: 40%;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    background: #fff;
+    
+}
+i{
+    margin-right: 150px;
+}
+a{
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+    
+}
+h2{
+    color: #d47441;
+    font-size: 9px;
+    text-align: center;
+    margin-left: -130px;
+}
+h3{
+    font-size: 48px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -12px;
+}
+p{
+    font-size: 12px;
+    margin-left: 50px
+}
+.Back{
+    margin-bottom: 100px;
+}
+.next{
+    margin-top: 150px;
+}

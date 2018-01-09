@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*, body{
+  margin: 0;
+  padding: 0;
+font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background: url("bg.svg");
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.menu{
+  width: 50%;
+  max-width: 500px;
+  background: #eee;
+  margin: 40px auto;
+  border-radius: 10px;
+  overflow: hidden;
+ }
+.menuHead{
+  width: 100%;
+  height: 80px;
+  box-shadow: 3px 3px 10px 10px #bbb;
+  margin-bottom: 16px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.menuHead h3{
+  display: inline-block;
+  line-height: 40px;
+  width: 86%;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #444;
+}
+.menuHead a{
+  font-size: 2em;
+  color: #ff8487;
+}
+.menu ul li{
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  padding: 4%;
+  box-shadow: 3px 3px 10px 10px #ccc;
+  box-sizing:border-box;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+.menu ul li .cirImage{
+  display: inline-block;
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  vertical-align: middle;
+
+}
+.menu ul li .itemText{
+  display: inline-block;
+  width: 65%;
+  vertical-align: middle;
+  line-height: 2.5em;
+}
+.menu ul li .icon{
+  width: 10%;
+  color: #ff8487;
+  vertical-align: middle;
+}
+.menu ul li .itemText p{
+    font-size: 1.3em;
+}
+
+.menu ul li .itemText .time{
+  color: #777;
+  font-size: 0.8em;
+}
+.menu ul li .itemText .kind{
+  color: #ff8487;
+}

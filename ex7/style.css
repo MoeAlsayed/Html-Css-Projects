@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Cantata+One');
+
+*, body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/******************CLEAR FLOAT********************/
+.cf{
+    zoom:1;
+}   
+.cf:before,
+.cf:after{
+    content:” “;
+    display:table;
+}
+.cf:after{
+    clear:both;
+}
+body{
+  background: #bbb;
+}
+.main{
+  width: 70%;
+  height: 800px;
+  margin: 10px auto;
+  background-image: url("bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.main header{
+  width: 100%;
+  padding:40px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main header ul{
+  display: inline-block;
+  float: right;
+}
+.main header ul li{
+  display: inline-block;
+}
+.main header ul li:first-child{
+  margin-right: 100px;
+}
+.main header ul li{
+color: #eee;
+}
+.main header #logo{
+  color: #111;
+  font-weight: 800;
+}
+.main section{
+  position: relative;
+  padding: 180px;
+  box-sizing: border-box;
+}
+.main section h3{
+  font-size: 3.5em;
+  font-family: 'Cantata One', serif;
+  font-weight: 200;
+  margin-bottom: 130px;
+}
+.main section ul{
+  text-align: center;
+}
+.main section ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.main section ul li .icon{
+  display: block;
+  font-size: 3em;
+  color: #b572cc;
+}
+.main section ul li a{
+  color: #333;
+  font-size: 1.2em
+}
+section .abs{
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 0.8em;
+}
+section .beh{
+  top: 140px;
+  left: 20px;
+  text-decoration: underline;
+}
+section .twi{
+  top:220px;
+  left: 20px;
+}
+section .mail{
+  right: 20px;
+  top: 140px;
+  text-decoration: underline;
+}
